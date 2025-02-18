@@ -1,0 +1,44 @@
+/* layout page start */
+.logo {
+  width: 50px;
+}
+
+.textside {
+  font-size: 15px !important;
+}
+
+.iconside {
+  font-size: 20px !important;
+  margin-left: 7px;
+}
+
+.input-style {
+  gap: 10px;
+}
+
+.nav-item:hover {
+  font-weight: bold !important;
+}
+
+/* layout page end */
+
+/* forms page start */
+.resizable {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+.resize-handle {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 7px;
+  height: 7px;
+  background-color: #007bff;
+  cursor: nwse-resize;
+}
+
+/* form page end */
